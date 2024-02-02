@@ -20,7 +20,7 @@ Technical Requirements
 
 ## Run Locally
 
-Clone the project using - ```https://github.com/Laksmi1940/NiralNetworks.git```
+Clone the project using - ```https://github.com/Laksmi1940/NiralNetworkAssessment.git```
 
 The swagger endpoint to test the APIs
 
@@ -28,7 +28,7 @@ The swagger endpoint to test the APIs
 
 ## Usage
 
-1. Create a REST API server that generates response using a HashMap.
+1. Create a REST API server that generates a response using a HashMap.
 
    Getmapping 
    ```
@@ -43,7 +43,7 @@ The swagger endpoint to test the APIs
         "key-2": "value-2"
     }
    ```
-2. Post a Employee
+2. Post an Employee
    Request
    ```
    {
@@ -87,7 +87,7 @@ The swagger endpoint to test the APIs
    ]
             ```
 4. Get an Employee based on empl Id
-     Request Parameter - ```emplyoyeeId```
+     Path Variable - ```emplyoyeeId = 1```
 
      Response
      ```
